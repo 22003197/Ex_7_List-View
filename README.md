@@ -1,12 +1,12 @@
 ## Ex.No:7 Develop an android application to display the country name with image using list view in android studio.
 ## AIM:
+
 To create and develop the application to display the place name with image using list view in android studio
-
 ## EQUIPMENTS REQUIRED:
-Android Studio(Latest Version)
 
+Android Studio(Latest Version)
 ## ALGORITHM:
-## Step 1:Open Android Stdio and then click on File -> New -> New project.
+Step 1:Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “listview″ and click Next.
 
@@ -19,14 +19,12 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
-
 ## PROGRAM:
-/*
-Program to print the list of item.
+
+/* Program to print the list of item. 
 Developed by: Shruthi S
-Registeration Number :212222220044
-*/
-##activity_main.xml:
+Registeration Number : 212222220044 */
+## ACTIVITY_MAIN.XML
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,24 +41,24 @@ Registeration Number :212222220044
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## mylist.xml:
+## MYLIST.XML
 ```
 <?xml version="1.0" encoding="utf-8"?>
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Medium Text"
-    android:textStyle="bold"
-    android:textAppearance="?android:attr/textAppearanceMedium"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="5dp"
-    android:padding="2dp"
-    android:textColor="#4d4d4d"
+android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Medium Text"
+android:textStyle="bold"
+android:textAppearance="?android:attr/textAppearanceMedium"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="5dp"
+android:padding="2dp"
+android:textColor="#4d4d4d"
     />
 ```
-## strings.xml:
+## STRINGS.XML
 ```
 <resources>
     <string name="app_name">ListView</string>
@@ -80,9 +78,9 @@ Registeration Number :212222220044
     </string-array>
 </resources>
 ```
-## MainActivity.java:
+## MAINACTIVITY.JAVA
 ```
-package com.example.exp7;
+package com.example.ex_7_listview;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -124,8 +122,6 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/1c8e2ebf-e1bf-4a01-a7aa-ce56d1f85eb6)
-![image](https://github.com/user-attachments/assets/0fcd6243-730f-48b8-be1c-8bdec371a428)
-
+![Screenshot 2024-10-07 152039](https://github.com/user-attachments/assets/08698b0b-285c-4656-8f8c-ffa1573d93f7)
 ## RESULT
 Thus a Simple Android Application to create and develop the application to display the country name with image using list view in android studio is developed and executed successfully
